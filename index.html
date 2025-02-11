@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <img
+        src="./images/hero-pic.JPG"
+        alt="Profile Picture"
+        data-testid="profilePicture"
+      />
+      <h2 data-testid="fullName">Mercy Ezihe</h2>
+      <h4 data-testid="jobTitle">Frontend Developer</h4>
+      <p data-testid="shortBio">
+        I am a highly motivated frontend developer with a strong passion for
+        building interactive, user-friendly web applications. With experience in
+        React.js and Next.js, I focus on creating responsive, accessible, and
+        efficient digital experiences. I am constantly learning and keeping up
+        with the latest trends in frontend development.
+      </p>
+      <p data-testid="currentLocation">Lagos, Nigeria</p>
+      <p data-testid="emailAddress">mercyezihe2@gmail.com</p>
+      <div class="social-links" data-testid="socialLinks">
+        <a href="https://www.linkedin.com/in/mercyezihe/" target="_blank"
+          >LinkedIn</a
+        >
+        <a href="https://github.com/amacodes1/" target="_blank">GitHub</a>
+      </div>
+      <p id="utcTime" data-testid="currentTimeUTC"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
